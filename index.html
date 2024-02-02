@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="./static/style.css" />
+    <title>IONLIFE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <!-- GOOGLE FONTs -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- <div class="container">
+		<div class="row">
+			<div class="col-" style="border:1px solid red"> hola</div>
+			<div class="col"> hola</div>
+			<div class="col"> hola</div>
+		</div>
+	</div> -->
+
+    <div class="welcome" id="welcome">
+      <div class="header row" id="header">
+        <div class="col-3">
+          <a href="./index.html" class="brand">
+            <img src="./static/img/logoblack.png" />
+          </a>
+        </div>
+        <div class="col-4 col-lg-8 col-md-2 col-sm-4 col-xs-3">
+          <nav class="menu">
+            <div class="btn">
+              <i class="fas fa-times close-btn"></i>
+            </div>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li>
+                <a href="#productos">Productos</a>
+              </li>
+
+              <li>
+                <a href="#nosotros">Nosotros</a>
+              </li>
+              <li>
+                <a href="#tunegocio">Tú&nbspNegocio</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgbackground1">
+        <div class="row contenido1" style="justify-content: center">
+          <img
+            src="./static/img/logowhite.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 150px"
+          />
+          <h1 class="heading-12">
+            Bienvenido a una salud completa y verdadera,
+          </h1>
+          <br />
+          <h1>bienvenido a <strong>Ionlife.</strong></h1>
+        </div>
+      </div>
+
+      <!-- <div class="video-inline">
+			<video class="video" autoplay="autoplay" muted="muted" loop playsinline>
+				<source src="/static/img/180711_05_13.mp4" type="video/mp4" />
+				Tu navegador no soporta video HTML5.
+			</video>
+			<canvas class="canvas"></canvas>
+			<div class="video-timeline js-timeline">
+				<div class="video-timeline-passed js-timeline-passed"></div>
+			</div>
+		</div> -->
+    </div>
+
+    <div class="imgbackground2" id="parte1">
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+        "
+      >
+        <div class="col-12 col-lg-3 col-md-12" style="text-align: center">
+          <img
+            src="./static/img/saludplena.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 180px"
+          />
+        </div>
+
+        <div class="columna2 col-12 col-lg-6 col-md-12">
+          <h3 style="color: rgb(0, 87, 120)">
+            SALUD PLENA
+            <hr />
+          </h3>
+          Sentirse bien no es lo mismo que estar sano. Para alcanzar una Salud
+          Plena, necesitas que cada célula de tu organismo funcione al 100% de
+          su capacidad, lo que se traduce en un cuerpo sano, libre de
+          enfermedades, con el peso correcto; manteniéndose joven y vital por
+          más tiempo. Un cuerpo sano promueve una mejor calidad de vida.
+          <strong>IonLife®</strong> tiene alimentos con funcionalidades
+          específicas para ayudarte a lograrlo ¿Suena bien no? <br /><br />
+          <strong>IonLife®</strong> investiga, desarrolla y produce productos de
+          tecnología microelectrónica, que ayudan a alcanzar el máximo potencial
+          de salud en el organismo; y los comercializa a través de franquiciados
+          independientes, brindándoles la oportunidad de tener un negocio propio
+          que va de la mano con un sostenido crecimiento personal y financiero.
+        </div>
+      </div>
+    </div>
+
+    <div class="imgbackground" id="productos">
+      <h1 class="heading-12">PRODUCTOS</h1>
+    </div>
+
+    <div class="imgbackground3">
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+        "
+      >
+        <div class="columna3 col-12 col-lg-6 col-md-12">
+          <h3 style="color: rgb(0, 87, 120)">
+            IONCard
+            <hr />
+          </h3>
+
+          El dispositivo <strong>IONCard</strong> es una tarjeta
+          electromagnética computarizada, desarrollada con tecnología de punta,
+          desarrollada con nanotecnología, hecha de una combinación única de
+          minerales y cargada con más de 20 mil iones negativos. <br /><br />
+          Antes que un cuerpo físico, somos energía. El principio científico
+          señala que todo está formado por moléculas, las cuales se componen de
+          átomos, que están conformado por protones, neutrones y electrones, que
+          vibran produciendo energía. Por lo tanto, todo vibra y está en
+          constante movimiento.
+          <br /><br />
+          IONCard es capaz de generar frecuencias y ondas de luz que penetran en
+          el ADN de las células, ayudando a regular energéticamente nuestro
+          organismo de forma 100% natural.
+          <br />
+          <br />
+          El propósito es que el usuario pueda recobrar, conservar y potenciar
+          su bienestar físico de la forma menos invasiva incluyendo este
+          artículo en sus actividades diarias.
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12" style="text-align: center">
+          <img
+            src="./static/img/producto.jpg"
+            alt="logocontenido1"
+            style="height: 400px; width: 400px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="imgbackground4">
+      <h1 class="heading-12">SALUD EMOCIONAL</h1>
+    </div>
+
+    <div class="imgbackground5">
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+        "
+      >
+        <div class="col-12 col-lg-3 col-md-12" style="text-align: center">
+          <img
+            src="./static/img/lofo.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 180px"
+          />
+        </div>
+
+        <div class="columna5 col-12 col-lg-6 offset-lg-2 col-md-12">
+          <h3 style="color: rgb(0, 87, 120)">
+            MISIÓN
+            <hr />
+          </h3>
+          Ayudar a miles de Familias alrededor del mundo a mejorar su Calidad de
+          Vida, mediante Sistemas de Salud y Financieros. <br /><br />
+          <h3 style="color: rgb(0, 87, 120)">
+            VISIÓN
+            <hr />
+          </h3>
+          Ser la Compañía que revolucionará el concepto de Redes de Mercadeo y
+          la salud verdadera, de Latinoamérica para el mundo.
+        </div>
+      </div>
+    </div>
+
+    <div class="imgbackground6">
+      <h1 class="heading-12">NOSOTROS</h1>
+    </div>
+
+    <div class="imgbackground7" id="nosotros">
+      <img
+        src="./static/img/simbolo.png"
+        alt="simbolo7"
+        id="simbolo7"
+        class="simbolo7"
+      />
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+          position: absolute;
+        "
+      >
+        <div class="columna5 col-12 col-lg-4 col-md-12">
+          <strong>IonLife®</strong> nace de la genialidad en la investigación de
+          la salud plena y verdadera del: <br /><br />
+          <h3 style="color: rgb(0, 87, 120)">
+            Dr. Herbert Suarez
+            <hr />
+          </h3>
+          <strong style="color: rgb(0, 87, 120)">Médico Cirujano</strong> con
+          más de 20 años de experiencia en medicina tradicional y creador del
+          dispositivo de medicina cuántica IonCard para el equilibrio celular,
+          después de tratar miles de pacientes hemos llegado a la conclusión que
+          la cura de todos los padecimiento está en lograr un equilibrio con la
+          naturaleza y esa es la función de nuestro dispositivo cuántico
+          IonCard.
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12" style="align-self: end">
+          <img
+            src="./static/img/Drherbert.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 180px"
+          />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="imgbackground6">
+      <h1 class="heading-12">NOSOTROS</h1>
+    </div>
+    <div class="imgbackground8">
+      <img src="./static/img/simbolo.png" alt="simbolo8" class="simbolo8" />
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+          position: absolute;
+        "
+      >
+        <div
+          class="col-12 col-lg-2 offset-lg-1 col-md-12"
+          style="align-self: end; justify-content: center"
+        >
+          <img
+            src="./static/img/Delio.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 180px"
+          />
+        </div>
+
+        <div class="columna5 col-12 col-lg-4 col-md-12">
+          <strong>IonLife®</strong> y su brazo comercial lo encabeza de:
+          <br /><br />
+          <h3 style="color: rgb(0, 87, 120)">
+            Delio Lizarazo
+            <hr />
+          </h3>
+          <strong style="color: rgb(0, 87, 120)">Empresario de Network Marketing</strong>
+          Delio Lizarazo <strong>CEO</strong>  de <strong>IonLife</strong>  con más de 20 años de experiencia, hemos creado una empresa donde existe una
+          convergencia entre el multinivel tradicional y el multinivel digital,
+          en la que comercializamos productos físicos y tangibles, dispositivos
+          de medicina cuántica y a la vez pagamos un pasivo por la venta global
+          de estos productos tecnológicos.
+        </div>
+      </div>
+    </div>
+
+    <div class="imgbackground9">
+      <h1 class="heading-12">OPORTUNIDAD</h1>
+    </div>
+
+    <div class="imgbackground3" id="tunegocio">
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+        "
+      >
+        <div class="columna3 col-12 col-lg-6 col-md-12">
+          <h3 style="color: rgb(0, 87, 120)">
+            Vive libre y en abundancia
+            <hr />
+          </h3>
+
+          ¿QUÉ TAL SUENA TRABAJAR EN LIBERTAD, MANEJANDO TU PROPIO TIEMPO Y CON
+          UNA REMUNERACIÓN MUY INTERESANTE? Suena increíble ¿no? Bueno, nosotros
+          tenemos productos extraordinarios para potenciar tu negocio, un
+          sistema de trabajo comprobado para hacerlo a tu ritmo desde cualquier
+          lugar, a través de la tecnología te permite trabajar estés donde
+          estés. ¡Tu oportunidad está aquí!
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12" style="text-align: center">
+          <img
+            src="./static/img/saludverdadera.png"
+            alt="logocontenido1"
+            style="height: 200px; width: 180px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="imgbackground9">
+      <h1 class="heading-12">OPORTUNIDAD</h1>
+    </div>
+
+    <div class="imgbackground5">
+      <div
+        class="row contenido2"
+        style="
+          justify-content: center;
+          text-align: justify;
+          vertical-align: middle;
+        "
+      >
+        <div class="col-12 col-lg-4 col-md-12" style="text-align: center">
+          <img
+            src="./static/img/men mas (1).png"
+            alt="logocontenido1"
+            style="height: 400px; width: 350px; align-self: end"
+          />
+        </div>
+
+        <div class="columna5 col-12 col-lg-6 col-md-12">
+          <h3 style="color: rgb(0, 87, 120)">
+            TU NEGOCIO PROPIO
+            <hr />
+          </h3>
+
+          <strong>IonLife®</strong> te ofrece la Oportunidad de empezar tu
+          negocio propio mediante una Franquicia, con un sistema de trabajo
+          simple y fácil de replicar. Puedes comenzar en tu tiempo libre y
+          dependiendo de tu esfuerzo y perseverancia irás generando ingresos
+          cada vez mayores, que te permitirán alcanzar la libertad de tiempo y
+          dinero que tanto deseas. <br />
+          <br />
+          Miles de personas hoy están buscando estar más sanas, verse mejor,
+          vivir más tiempo y más intensamente. Así el negocio del bienestar
+          continúa en crecimiento y mueve miles de billones de dólares en el
+          mundo. IonLife® te ofrece la Oportunidad de ser parte de esta
+          creciente industria como franquiciado Independiente de productos
+          exclusivos de alta demanda.
+          <br /><br />
+          <h4>
+            Este es el negocio en el que esperabas, solo necesitas darte la
+            oportunidad de entrar en él.
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="col">
+      <div class="copyright">
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        IONlife
+      </div>
+    </div>
+
+    <script src="./static/motor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(window).scroll(function () {
+        if ($("#header").offset().top > 56) {
+          $("#header").addClass("bg-scroll-down");
+        } else {
+          $("#header").removeClass("bg-scroll-down");
+        }
+      });
+    </script>
+  </body>
+</html>
